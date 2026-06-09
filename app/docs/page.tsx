@@ -4,11 +4,11 @@ import { title } from "@/components/primitives";
 export default function DocsPage() {
   return (
     <div>
-      <h1 className={title()}>Docs</h1>
+      <h1 className={title()}> BIBBLE ARE BOSs</h1>
 
       <div className="my-20">
-        <span className="text-2xl mr-6">WOW thats a lot of celebrations!</span>{" "}
-        <span className="text-xs">Especially for a docs page.</span>
+        <span className="text-2xl mr-6">WOW bibble is so cool !</span>{" "}
+        <span className="text-xs"> i know .</span>
       </div>
 
       <div className="flex gap-4">

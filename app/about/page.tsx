@@ -1,13 +1,10 @@
 import { title } from "@/components/primitives";
 
-export default function AboutPage() {
+export default function bibblePage() {
   return (
     <div>
-      <h1 className={title()}>About</h1>
-      <p>
-        This is where you talk about yourself or your company or whatever
-        really. Or delete this page and make something more interesting.
-      </p>
+      <h1 className={title()}>BIBBLE</h1>
+      <p>bibble is the bets friend you can got</p>
     </div>
   );
 }

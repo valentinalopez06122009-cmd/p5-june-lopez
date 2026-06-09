@@ -44,17 +44,12 @@ export default function BlogPage() {
 
   return (
     <div>
-      <h1 className={title()}>Blog</h1>
+      <h1 className={title()}> BIBBLE IS IMPORTANT IN THE BARBIE MOVIE</h1>
       <div className="mt-20 flex flex-col gap-6">
         <Post
           date={new Date("2025-02-26")}
-          description="An example post. You could do some cool stuff with this. This is a good example of using custom components within the same page."
+          description="because bibble help barbie ."
           title="Example 1"
-        />
-        <Post
-          date={new Date("2025-01-15")}
-          description="Time machine sales are down! Demand decreases as AI take over."
-          title="Time Machine Sales Statistics"
         />
       </div>
     </div>

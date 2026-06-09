@@ -19,27 +19,26 @@ export default function PricingPage() {
 
   return (
     <div>
-      <h1 className={title()}>Pricing</h1>
+      <h1 className={title()}>bibble </h1>
 
-      <p>Pricing? Boring!</p>
+      <p> bibble images </p>
 
       <section className="mt-20">
-        <h2 className="text-center text-4xl font-bold">Example Plans</h2>
+        <h2 className="text-center text-4xl font-bold">BIBBLE</h2>
         <div className="flex justify-center gap-8 mt-20">
           {/* plan 1 */}
           <Card className="p-6 w-1/3">
             <CardHeader>
               <div className="text-3xl text-center w-full font-extrabold text-primary">
-                $29.99 <span className="text-sm">/mo</span>
+                WITH LOVE BIBBLE <span className="text-sm" />
               </div>
             </CardHeader>
             <CardBody>
-              <ul className="list-disc pl-5 text-xl">
-                <li>1,000 monthly orders</li>
-                <li>5,000 customer limit</li>
-                <li>Manual bookkeeping and invoices</li>
-                <li>Standard shipping</li>
-              </ul>
+              <ul className="list-disc pl-5 text-xl" />
+              <img
+                alt="bibble"
+                src=" https://media1.popsugar-assets.com/files/thumbor/IqR5XCRVCtaaqGV3vWuDoYQQLQA/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/08/07/849/n/40126596/d77718a509376a8f_MCDBAFA_EC010/i/Bibble-Barbie-Fairytopia.jpg"
+              />
             </CardBody>
             <CardFooter className="justify-center">
               <Button
@@ -49,7 +48,7 @@ export default function PricingPage() {
                   thisDoesNothingToast();
                 }}
               >
-                Sign Up
+                Happy bibble
               </Button>
             </CardFooter>
           </Card>
@@ -58,16 +57,14 @@ export default function PricingPage() {
           <Card className="p-6 w-1/3">
             <CardHeader>
               <div className="text-3xl text-center w-full font-extrabold text-secondary">
-                $59.99 <span className="text-sm">/mo</span>
+                Queen Bibble <span className="text-sm" />
               </div>
             </CardHeader>
             <CardBody>
-              <ul className="list-disc pl-5 text-xl">
-                <li>Unlimited monthly orders</li>
-                <li>100,000 customer limit</li>
-                <li>AI powered bookkeeping and invoices</li>
-                <li>Standard + Express shipping</li>
-              </ul>
+              <img
+                alt="queen "
+                src="https://i.pinimg.com/originals/b2/a0/43/b2a0433d7742bc097125379ea146e8bf.jpg"
+              />
             </CardBody>
             <CardFooter className="justify-center">
               <Button
@@ -77,7 +74,7 @@ export default function PricingPage() {
                   thisDoesNothingToast();
                 }}
               >
-                Sign Up
+                queen
               </Button>
             </CardFooter>
           </Card>
@@ -86,16 +83,14 @@ export default function PricingPage() {
           <Card className="p-6 w-1/3">
             <CardHeader>
               <div className="text-3xl text-center w-full font-extrabold text-success">
-                Custom
+                Bibble with his girlfrend
               </div>
             </CardHeader>
             <CardBody>
-              <ul className="list-disc pl-5 text-xl">
-                <li>Unlimited monthly orders</li>
-                <li>Unlimited customers</li>
-                <li>Custom shipping</li>
-                <li>AI tools</li>
-              </ul>
+              <img
+                alt="his girlfrend"
+                src="https://i.pinimg.com/736x/19/68/65/19686557ba15184163b572dfe94f2e15.jpg"
+              />
             </CardBody>
             <CardFooter className="justify-center">
               <Button
@@ -105,7 +100,7 @@ export default function PricingPage() {
                   thisDoesNothingToast();
                 }}
               >
-                Contact Us
+                Bibble in love
               </Button>
             </CardFooter>
           </Card>
@@ -113,17 +108,16 @@ export default function PricingPage() {
       </section>
 
       <section className="my-40">
-        <h2 className="text-center text-4xl font-bold">FAQ</h2>
+        <h2 className="text-center text-4xl font-bold">BIBBLE</h2>
         <Accordion>
           <AccordionItem key={1} title="Why time machines?">
-            Because noboody else sells them!
+            XXOO BIBBLE
           </AccordionItem>
           <AccordionItem
             key={2}
             title="How many time machines do we sell per year?"
           >
-            According to our 2063 statistics, we sold roughly 4800 time
-            machines.
+            ARE BOOS
           </AccordionItem>
         </Accordion>
       </section>
